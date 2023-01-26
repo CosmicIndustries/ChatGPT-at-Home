@@ -1,7 +1,6 @@
 MIT License
 
  Copyright©
-    <script>document.write(new Date().getFullYear());</script>
     <noscript><?html echo date("Y"); ?></noscript>
     Cosmic Industries LLC
 
