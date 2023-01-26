@@ -26,6 +26,56 @@
                 background-color: #e0e0e0;
                 color: black;
             }
+            color: #400101; /* secondary color */
+             background:linear-gradient(35deg, #D6D3CF, #4E4E4E, #565556, #75726D, #8A8B86, #D6D3CF, #4E4E4E, #565556, #75726D, #8A8B86, #D6D3CF) left/400% 100%;
+            animation:f 27s infinite normal linear;
+            }
+            /*KeyFrames*/
+            @keyframes f {
+              100% {background-position:right}
+            }
+
+            /* Media queries */
+            @media (max-width: 700px) {
+              h1 {
+                font-size: 48px;
+              }
+            }
+
+            @media (max-width: 500px) {
+              .card,header,h1 {
+                width: 45%;
+                 font-size: 38px;
+              }
+            }
+
+            @media (max-width: 400px) {
+              .card,header,h1 {
+                width: 90%;
+                 font-size: 28px;
+              }
+            }
+            @media (max-width: 100px) {
+              .card,header,h1,p,section {
+                width: 90%;
+                height: 2vh;
+                 font-size: 12px;
+                 margin:0;
+              }
+              nav{1vh;}
+
+            }
+            /* Hide the scrollbar */
+            ::-webkit-scrollbar {
+              width: 0;
+              height: 0;
+            }
+
+            /* Style the thumb */
+            ::-webkit-scrollbar-thumb {
+              background: transparent;
+              border-radius: 10px;
+            }
         </style>
     </head>
 <body>
