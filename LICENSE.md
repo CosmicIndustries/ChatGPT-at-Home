@@ -1,6 +1,7 @@
 MIT License
 
-Copyright © $(date +'%Y-%m-%d')
+Copyright © <script>document.write(new Date().getFullYear());</script>
+
     Cosmic Industries LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
