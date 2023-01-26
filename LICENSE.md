@@ -1,7 +1,7 @@
 MIT License
 
  Copyright©
-    <noscript><?date +'%Y-%m-%d'></noscript>
+    <noscript>date +'%Y-%m-%d</noscript>
     Cosmic Industries LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
