@@ -1,11 +1,7 @@
 MIT License
 
- Copyright©
-     <script>
-         document.write(new Date().toDateString());
-     </script>
+ Copyright © {{ date }}
 
-    <noscript></noscript>
     Cosmic Industries LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
