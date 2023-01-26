@@ -1,6 +1,7 @@
 MIT License
 
 Copyright © <script>document.write(new Date().getFullYear());</script>
+<noscript>2023</noscript>
 
     Cosmic Industries LLC
 
